@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta charset="ISO-8859-1">
+		    <title>Sign Up page</title>
+		    <link rel="stylesheet" type="text/css" th:href="@{/styles.css}">
+		</head>
+		<body>
+		 <h2>Welcome to sign up page!</h2>
+		 <div class ="container">   
+		    <form action ="/signUp" method ="post">
+		     <label> USERNAME</label>
+		     <input type ="text" name ="username">
+		     <br></br>
+		     
+		     <label> EMAIL</label>
+		     <input type ="email" name ="email">
+		     <br></br>
+		     
+		     
+		     <label> PASSWORD</label>
+		     <input type ="password" name ="password">
+		     <br></br>
+		     
+		     <label> GENDER</label>
+		     <input type ="radio" name ="gender" value="male" >Male
+		     <input type ="radio" name ="gender" value="female" >Female
+		     <input type ="radio" name ="gender" value="other" >Other
+		     <br></br>
+		     
+		     
+		     <input type="submit" value="SIGN UP">
+		     
+		     </form>
+		 
+		 </div>
+		</body>
+</html>
